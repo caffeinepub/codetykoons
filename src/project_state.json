@@ -1,0 +1,214 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "A modern, professional business website for Codetykoons, a software development company offering web development, e-commerce, web applications, SEO, maintenance, and API integration services. Multi-page site with Home, About, Services, Portfolio, Pricing (optional), and Contact pages. Clean tech-focused design with blue/white palette, smooth animations. Node.js backend with compatible frontend.",
+  "architectural_notes": [
+    "Backend: Node.js",
+    "Frontend: Compatible with Node.js (likely Express + EJS/React/Vue)",
+    "Design: Blue and white color palette, clean modern tech-focused UI",
+    "Target reference: techvedasoftware.online structure"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Professional tech company hero background with blue gradient and geometric patterns (hero-bg.dim_1920x1080.png)\n- Modern abstract illustration representing custom website development service (service-web-dev.dim_400x300.png)\n- Modern abstract illustration representing e-commerce development service (service-ecommerce.dim_400x300.png)\n- Modern abstract illustration representing web applications service (service-web-apps.dim_400x300.png)\n- Modern abstract illustration representing SEO optimization service (service-seo.dim_400x300.png)\n- Modern abstract illustration representing website maintenance service (service-maintenance.dim_400x300.png)\n- Modern abstract illustration representing API integration service (service-api.dim_400x300.png)\n- Codetykoons company logo with modern tech aesthetic in blue and white (logo.dim_200x60.png)\n- Portfolio project mockup showcasing professional website design example 1 (portfolio-1.dim_600x400.png)\n- Portfolio project mockup showcasing professional website design example 2 (portfolio-2.dim_600x400.png)\n- Portfolio project mockup showcasing professional website design example 3 (portfolio-3.dim_600x400.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-home-page-with-hero-section-containing-headline-we-build-powerful-digital-solutions-subheading-explaining-how-codetykoons-helps-businesses-grow-online-and-cta-button-labeled-get-a-free-consultation",
+      "title": "Create a Home page with hero section containing headline 'We Build Powerful Digital Solutions', subheading explaining how Codetykoons helps businesses grow online, and CTA button labeled 'Get a Free Consultation'",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-services-overview-section-to-home-page-listing-the-six-core-services-custom-website-development-e-commerce-website-development-web-applications-seo-optimization-website-maintenance-support-and-api-integration",
+      "title": "Add Services overview section to Home page listing the six core services: Custom Website Development, E-commerce Website Development, Web Applications, SEO Optimization, Website Maintenance & Support, and API Integration",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-why-choose-us-section-to-home-page-highlighting-codetykoons-value-propositions-and-competitive-advantages",
+      "title": "Add Why Choose Us section to Home page highlighting Codetykoons' value propositions and competitive advantages",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-portfolio-preview-section-to-home-page-showcasing-selected-completed-projects",
+      "title": "Add Portfolio preview section to Home page showcasing selected completed projects",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-testimonials-section-to-home-page-with-client-feedback-and-reviews",
+      "title": "Add Testimonials section to Home page with client feedback and reviews",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-contact-call-to-action-section-to-home-page-encouraging-visitors-to-reach-out",
+      "title": "Add Contact call-to-action section to Home page encouraging visitors to reach out",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-footer-to-home-page-with-social-media-links",
+      "title": "Add Footer to Home page with social media links",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-about-us-page-explaining-that-codetykoons-is-dedicated-to-building-scalable-secure-and-high-performance-web-solutions",
+      "title": "Create About Us page explaining that Codetykoons is dedicated to building scalable, secure, and high-performance web solutions",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-services-page-showcasing-all-six-services-custom-website-development-e-commerce-website-development-web-applications-seo-optimization-website-maintenance-support-api-integration-with-detailed-descriptions",
+      "title": "Create Services page showcasing all six services (Custom Website Development, E-commerce Website Development, Web Applications, SEO Optimization, Website Maintenance & Support, API Integration) with detailed descriptions",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-portfolio-page-to-display-completed-projects-and-case-studies",
+      "title": "Create Portfolio page to display completed projects and case studies",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-optional-pricing-page-to-display-service-pricing-tiers-and-packages",
+      "title": "Create optional Pricing page to display service pricing tiers and packages",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-contact-us-page-with-form-fields-for-name-email-phone-and-project-details-and-include-email-and-whatsapp-contact-options",
+      "title": "Create Contact Us page with form fields for Name, Email, Phone, and Project Details, and include email and WhatsApp contact options",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-clean-modern-tech-focused-design-with-professional-and-trustworthy-aesthetic-using-blue-and-white-color-palette-throughout-all-pages",
+      "title": "Implement clean, modern, tech-focused design with professional and trustworthy aesthetic using blue and white color palette throughout all pages",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-minimal-but-bold-sections-with-smooth-scroll-and-modern-animations-across-all-pages",
+      "title": "Implement minimal but bold sections with smooth scroll and modern animations across all pages",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-ensure-all-pages-are-mobile-responsive-with-fast-loading-and-modern-ui-optimized-for-mobile-tablet-and-desktop-devices",
+      "title": "Ensure all pages are mobile responsive with fast loading and modern UI optimized for mobile, tablet, and desktop devices",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-seo-optimization-with-professional-business-tone-in-content-throughout-all-pages",
+      "title": "Implement SEO optimization with professional business tone in content throughout all pages",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-navigation-structure-allowing-users-to-move-between-home-about-us-services-portfolio-pricing-and-contact-us-pages",
+      "title": "Implement navigation structure allowing users to move between Home, About Us, Services, Portfolio, Pricing, and Contact Us pages",
+      "reqIds": [
+        "REQ-18"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Homepage with hero section, services overview, Why Choose Us, portfolio preview, testimonials, CTA, and footer with social links",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "About Us page explaining Codetykoons' mission to build scalable, secure, high-performance web solutions",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Services page showcasing Custom Website Development, E-commerce, Web Applications, SEO, Maintenance & Support, API Integration",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Portfolio page to showcase completed projects",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Pricing page (optional) to display service pricing tiers",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Contact Us page with form (Name, Email, Phone, Project Details) and email/WhatsApp contact options",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Node.js backend with frontend integration",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "SEO optimization, mobile responsive layout, smooth scroll and modern animations",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-21",
+      "summary": "Store contact form submissions in backend with fields for name, email, phone, and project details",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Codetykoons",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

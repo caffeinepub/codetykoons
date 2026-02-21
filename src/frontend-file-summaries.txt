@@ -1,0 +1,17 @@
+{
+  "frontend/src/App.tsx": "Main application component that sets up TanStack Router with routes for all six pages (Home, About, Services, Portfolio, Pricing, Contact) wrapped in a Layout component.",
+  "frontend/src/components/Layout.tsx": "Layout wrapper component that provides consistent structure with Navigation header and Footer across all pages using Outlet for page content.",
+  "frontend/src/components/Navigation.tsx": "Responsive navigation header with logo, desktop menu, mobile hamburger menu, and active route highlighting using TanStack Router.",
+  "frontend/src/components/Footer.tsx": "Footer component with company info, quick links, services list, social media icons, and Caffeine.ai attribution with UTM tracking.",
+  "frontend/src/pages/Home.tsx": "Homepage featuring hero section with CTA, services overview grid, why choose us section, portfolio preview, testimonials, and contact CTA with scroll animations.",
+  "frontend/src/pages/About.tsx": "About page explaining Codetykoons' mission to build scalable, secure, high-performance solutions with company values, stats, approach, and trust factors.",
+  "frontend/src/pages/Services.tsx": "Services page showcasing all six services (web development, e-commerce, web apps, SEO, maintenance, API integration) with detailed descriptions, features, and images.",
+  "frontend/src/pages/Portfolio.tsx": "Portfolio page displaying completed projects with images, categories, technologies, features, and filtering options plus company stats.",
+  "frontend/src/pages/Pricing.tsx": "Pricing page with three service tiers (Starter, Professional, Enterprise), add-on services, FAQ section, and consultation CTA.",
+  "frontend/src/pages/Contact.tsx": "Contact page with contact information (email, phone, WhatsApp, location), business hours, and integrated contact form component.",
+  "frontend/src/components/ContactForm.tsx": "Contact form component with validation for name, email, phone, and project details fields that submits to backend using React Query mutation.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for backend operations including submitContactForm mutation and queries for listing and retrieving contact submissions.",
+  "frontend/src/index.css": "Global styles with OKLCH-based blue and white color system for light/dark modes, smooth scroll behavior, and fade-in animation utilities.",
+  "frontend/tailwind.config.js": "Tailwind configuration with blue-themed color palette, custom fonts (Inter, Poppins), extended shadows, and responsive breakpoints.",
+  "frontend/index.html": "HTML entry point with SEO meta tags, Open Graph tags, Twitter cards, and Google Fonts (Inter, Poppins) for professional typography."
+}

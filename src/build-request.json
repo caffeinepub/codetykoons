@@ -1,0 +1,358 @@
+{
+  "kind": "build_request",
+  "title": "Build Codetykoons business website with multi-page layout and contact form",
+  "projectName": "Codetykoons",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a Home page with hero section containing headline 'We Build Powerful Digital Solutions', subheading explaining how Codetykoons helps businesses grow online, and CTA button labeled 'Get a Free Consultation'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "Hero section with headline: \"We Build Powerful Digital Solutions\"",
+          "CTA button: \"Get a Free Consultation\""
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero section displays headline 'We Build Powerful Digital Solutions'",
+        "Subheading explains Codetykoons' value proposition for business growth",
+        "CTA button labeled 'Get a Free Consultation' is prominently displayed"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Add Services overview section to Home page listing the six core services: Custom Website Development, E-commerce Website Development, Web Applications, SEO Optimization, Website Maintenance & Support, and API Integration",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "Services overview",
+          "Custom Website Development, E-commerce Website Development, Web Applications, SEO Optimization, Website Maintenance & Support, API Integration"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Services section displays all six services clearly",
+        "Each service is visually distinct and easy to scan"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Add Why Choose Us section to Home page highlighting Codetykoons' value propositions and competitive advantages",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "Why Choose Us section"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Why Choose Us section is present on Home page",
+        "Section communicates trust, quality, and expertise"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Add Portfolio preview section to Home page showcasing selected completed projects",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "Portfolio preview"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Portfolio preview section displays project samples",
+        "Projects are visually appealing and representative of company work"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Add Testimonials section to Home page with client feedback and reviews",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "Testimonials"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Testimonials section displays client reviews",
+        "Reviews build credibility and trust"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Add Contact call-to-action section to Home page encouraging visitors to reach out",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "Contact call-to-action"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Contact CTA section is present with clear messaging",
+        "CTA drives users toward contact action"
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "text": "Add Footer to Home page with social media links",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "Footer with social links"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Footer displays social media links",
+        "Footer is consistent across all pages"
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "text": "Create About Us page explaining that Codetykoons is dedicated to building scalable, secure, and high-performance web solutions",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "About Page: Explain that Codetykoons is dedicated to building scalable, secure, and high-performance web solutions"
+        ]
+      },
+      "acceptanceCriteria": [
+        "About Us page communicates company mission and values",
+        "Content emphasizes scalability, security, and performance"
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "text": "Create Services page showcasing all six services (Custom Website Development, E-commerce Website Development, Web Applications, SEO Optimization, Website Maintenance & Support, API Integration) with detailed descriptions",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "Services",
+          "Custom Website Development, E-commerce Website Development, Web Applications, SEO Optimization, Website Maintenance & Support, API Integration"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Services page lists all six services",
+        "Each service has a detailed description",
+        "Layout is clean and easy to navigate"
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "text": "Create Portfolio page to display completed projects and case studies",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "Portfolio"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Portfolio page showcases completed projects",
+        "Projects are presented with images and descriptions"
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "text": "Create optional Pricing page to display service pricing tiers and packages",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "Pricing (optional)"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Pricing page displays service tiers clearly",
+        "Pricing information is easy to understand"
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "text": "Create Contact Us page with form fields for Name, Email, Phone, and Project Details, and include email and WhatsApp contact options",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "Contact Page: Include form fields (Name, Email, Phone, Project Details) Add email and WhatsApp contact option"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Contact form includes Name, Email, Phone, and Project Details fields",
+        "Form submits data to backend for processing",
+        "Email and WhatsApp contact options are displayed",
+        "Form validation prevents invalid submissions"
+      ]
+    },
+    {
+      "id": "REQ-13",
+      "text": "Store contact form submissions in backend with fields for name, email, phone, and project details",
+      "target": "backend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "Contact Page: Include form fields (Name, Email, Phone, Project Details)"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Backend stores contact submissions with all four fields",
+        "Submissions are retrievable for review"
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "text": "Implement clean, modern, tech-focused design with professional and trustworthy aesthetic using blue and white color palette throughout all pages",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "Clean, modern, tech-focused design",
+          "Professional and trustworthy",
+          "Blue, and white color palette"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Design uses blue and white as primary colors",
+        "Visual style is clean, modern, and professional",
+        "Design builds trust and credibility"
+      ]
+    },
+    {
+      "id": "REQ-15",
+      "text": "Implement minimal but bold sections with smooth scroll and modern animations across all pages",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "Minimal but bold sections",
+          "Smooth scroll and modern animations"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Sections are minimalist yet visually impactful",
+        "Smooth scroll behavior is implemented",
+        "Modern animations enhance user experience without being distracting"
+      ]
+    },
+    {
+      "id": "REQ-16",
+      "text": "Ensure all pages are mobile responsive with fast loading and modern UI optimized for mobile, tablet, and desktop devices",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "Mobile responsive layout",
+          "Fast loading and modern UI"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All pages display correctly on mobile, tablet, and desktop",
+        "Page load times are optimized",
+        "UI elements scale and adapt to different screen sizes"
+      ]
+    },
+    {
+      "id": "REQ-17",
+      "text": "Implement SEO optimization with professional business tone in content throughout all pages",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "SEO optimized content",
+          "Professional business tone"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Content uses professional, business-appropriate language",
+        "Meta tags, headings, and alt text support SEO",
+        "Content targets startup, small business, and entrepreneur audiences"
+      ]
+    },
+    {
+      "id": "REQ-18",
+      "text": "Implement navigation structure allowing users to move between Home, About Us, Services, Portfolio, Pricing, and Contact Us pages",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "Pages required: 1. Home 2. About Us 3. Services 4. Portfolio 5. Pricing (optional) 6. Contact Us"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Navigation menu is present on all pages",
+        "All six pages are accessible from navigation",
+        "Navigation is intuitive and user-friendly"
+      ]
+    }
+  ],
+  "constraints": [
+    "Use blue and white color palette exclusively as specified",
+    "Target audience is startups, small businesses, entrepreneurs, and companies seeking online presence",
+    "Reference design structure similar to techvedasoftware.online but maintain unique branding"
+  ],
+  "nonGoals": [
+    "Do not implement Node.js backend (platform uses Motoko)",
+    "Do not integrate third-party authentication beyond Internet Identity",
+    "Do not implement real-time chat or WebSocket features",
+    "Do not integrate external email services like SendGrid or SMTP"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Professional tech company hero background with blue gradient and geometric patterns (hero-bg.dim_1920x1080.png)",
+      "Modern abstract illustration representing custom website development service (service-web-dev.dim_400x300.png)",
+      "Modern abstract illustration representing e-commerce development service (service-ecommerce.dim_400x300.png)",
+      "Modern abstract illustration representing web applications service (service-web-apps.dim_400x300.png)",
+      "Modern abstract illustration representing SEO optimization service (service-seo.dim_400x300.png)",
+      "Modern abstract illustration representing website maintenance service (service-maintenance.dim_400x300.png)",
+      "Modern abstract illustration representing API integration service (service-api.dim_400x300.png)",
+      "Codetykoons company logo with modern tech aesthetic in blue and white (logo.dim_200x60.png)",
+      "Portfolio project mockup showcasing professional website design example 1 (portfolio-1.dim_600x400.png)",
+      "Portfolio project mockup showcasing professional website design example 2 (portfolio-2.dim_600x400.png)",
+      "Portfolio project mockup showcasing professional website design example 3 (portfolio-3.dim_600x400.png)"
+    ],
+    "edits": []
+  }
+}
